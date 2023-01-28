@@ -30,5 +30,5 @@ async def approve(client: Client, message: Message):
     await client.approve_chat_join_request(chat_id=chat.id, user_id=user.id)
     img = random.choice(gif)
     #nothingenter
-    await client.send_video(user.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @KOMBOTZZ__ #Feutere By @Master_broi**".format(message.from_user.mention, message.chat.title))
+    await client.send_video(user.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @KOMBOTZZ__ \n\n#Feutere By @Master_broi**".format(message.from_user.mention, message.chat.title))
 #by master
