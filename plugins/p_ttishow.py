@@ -38,7 +38,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('⚡️Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ⚡️', url=GRP_LNK),
+                    InlineKeyboardButton('⚡️ᴏᴩᴇɴ ᴍᴇ ɪɴ ᴩᴍ⚡️', url="https://t.me/Kom_auto_filter5_bot"),
                     InlineKeyboardButton('💫Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ💫', url=CHNL_LNK)
                  ],[
                     InlineKeyboardButton("📍ꜱʜᴀʀᴇ ᴍᴇ📍", url="https://t.me/share/url?url=https://t.me/Kom_auto_filter5_bot")
@@ -61,7 +61,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('🖤Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🖤', url=GRP_LNK),
+                                                                           InlineKeyboardButton('⚡️ᴏᴩᴇɴ ᴍᴇ ɪɴ ᴩᴍ⚡️', url="https://t.me/Kom_auto_filter5_bot"),
                                                                            InlineKeyboardButton('💫Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ💫', url=CHNL_LNK)
                                                                         ],[
                                                                            InlineKeyboardButton("📍ꜱʜᴀʀᴇ ᴍᴇ📍", url="https://t.me/share/url?url=https://t.me/Kom_auto_filter5_bot")
