@@ -536,10 +536,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('💫Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ💫', url=GRP_LNK),
+                              
                               InlineKeyboardButton('📣Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', url=CHNL_LNK)
                            ],[
-                              InlineKeyboardButton("😻Bᴏᴛ Oᴡɴᴇʀ😻", url="t.me/Komassistantbot")
+                              InlineKeyboardButton("➕️ʜᴇʟᴩ➕️", url="t.me/Komassistantbot")
                              ]
                             ]
                         )
@@ -584,10 +584,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('🔥Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🔥', url=GRP_LNK),
-                  InlineKeyboardButton('💫Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ💫', url=CHNL_LNK)
+                  
+                  InlineKeyboardButton('📣Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("😻Bᴏᴛ Oᴡɴᴇʀ😻", url="t.me/LUTTAPPIxtg")
+                  InlineKeyboardButton("➕️ʜᴇʟᴩ➕️", url="t.me/Komassistantbot")
                  ]
                 ]
             )
