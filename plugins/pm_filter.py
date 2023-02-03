@@ -930,13 +930,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('Kᴏᴍ Lᴏɢꜱ', url="t.me/AFxSU")
+            InlineKeyboardButton('➕️ALL OUR LINKS➕️', url="t.me/KOM_LINKS")
        ],[
-            InlineKeyboardButton('Gʀᴏᴜᴘ', url="t.me/AFxSU"),
-            InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url="t.me/AFxSU")
+            InlineKeyboardButton('🎬Gʀᴏᴜᴘ🎬', url="t.me/KINGOFMOVIES003"),
+            InlineKeyboardButton('🏅Cʜᴀɴɴᴇʟ🏅', url="t.me/KOMOFFICIAL")
        ],[
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇꜱ', url="t.me/AFxSU"),
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="t.me/AFxSU")
+            InlineKeyboardButton('📣ʙᴏᴛ Uᴘᴅᴀᴛᴇꜱ📣', url="t.me/KOMBOTZZ"),
+            InlineKeyboardButton('🤖Sᴜᴘᴘᴏʀᴛ🤖', url="https://t.me/KOMBOTZZSUPPORT")
        ],[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start')
         ]]
