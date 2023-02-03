@@ -882,7 +882,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🛡️Aʙᴏᴜᴛ🛡️', callback_data='about')
                     
                 ],[
-                    InlineKeyboardButton('📣Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', url=CHNL_LNK)
+                    InlineKeyboardButton('📣Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', callback_data="group_info")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -928,9 +928,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
         )
+    elif query.data == "group_info":
+        buttons = [[
+            InlineKeyboardButton('Kᴏᴍ Lᴏɢꜱ', url="t.me/AFxSU")
+       ],[
+            InlineKeyboardButton('Gʀᴏᴜᴘ', url="t.me/AFxSU"),
+            InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url="t.me/AFxSU")
+       ],[
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇꜱ', url="t.me/AFxSU"),
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="t.me/AFxSU")
+       ],[
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start')
+        ]]
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.GFILTER_TXT,
+            text=script.GROUP_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
