@@ -155,10 +155,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('⚡️ᴏᴩᴇɴ ᴍᴇ ɪɴ ᴩᴍ⚡️', url="https://t.me/Kom_auto_filter5_bot"),
-                          InlineKeyboardButton('💫Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ💫', url=CHNL_LNK)
+                          
+                          InlineKeyboardButton('📣Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("📍ꜱʜᴀʀᴇ ᴍᴇ📍", url="https://t.me/share/url?url=https://t.me/Kom_auto_filter5_bot")
+                          InlineKeyboardButton("➕️ʜᴇʟᴩ➕️", url="t.me/Komassistantbot")
                          ]
                         ]
                     )
@@ -174,10 +174,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('⚡️ᴏᴩᴇɴ ᴍᴇ ɪɴ ᴩᴍ⚡️', url="https://t.me/Kom_auto_filter5_bot"),
-                          InlineKeyboardButton('💫Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ💫', url=CHNL_LNK)
+                         
+                          InlineKeyboardButton('📣Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("📍ꜱʜᴀʀᴇ ᴍᴇ📍", url="https://t.me/share/url?url=https://t.me/Kom_auto_filter5_bot")
+                          InlineKeyboardButton("➕️ʜᴇʟᴩ➕️", url="t.me/Komassistantbot")
                          ]
                         ]
                     )
@@ -245,10 +245,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('⚡️ᴏᴩᴇɴ ᴍᴇ ɪɴ ᴩᴍ⚡️', url="https://t.me/Kom_auto_filter5_bot"),
-                      InlineKeyboardButton('💫Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ💫', url=CHNL_LNK)
+                     
+                      InlineKeyboardButton('📣Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("📍ꜱʜᴀʀᴇ ᴍᴇ📍", url="https://t.me/share/url?url=https://t.me/Kom_auto_filter5_bot")
+                      InlineKeyboardButton("➕️ʜᴇʟᴩ➕️", url="t.me/Komassistantbot")
                      ]
                     ]
                 )
@@ -288,10 +288,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('⚡️ᴏᴩᴇɴ ᴍᴇ ɪɴ ᴩᴍ⚡️', url="https://t.me/Kom_auto_filter5_bot"),
-              InlineKeyboardButton('💫Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ💫', url=CHNL_LNK)
+              
+              InlineKeyboardButton('📣Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("📍ꜱʜᴀʀᴇ ᴍᴇ📍", url="https://t.me/share/url?url=https://t.me/Kom_auto_filter5_bot")
+              InlineKeyboardButton("➕️ʜᴇʟᴩ➕️", url="t.me/Komassistantbot")
              ]
             ]
         )
