@@ -882,7 +882,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🛡️Aʙᴏᴜᴛ🛡️', callback_data='about')
                     
                 ],[
-                    InlineKeyboardButton('📣Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', callback_data='group_info')
+                    InlineKeyboardButton('🎈ꜱᴜᴩᴩᴏʀᴛ🎈', callback_data='group_info')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -930,14 +930,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('➕️ALL OUR LINKS➕️', url="t.me/KOM_LINKS")
+            InlineKeyboardButton('🪄ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ🪄', url="t.me/KOM_LINKS")
        ],[
-            InlineKeyboardButton('🎬Gʀᴏᴜᴘ🎬', url="t.me/KINGOFMOVIES003"),
-            InlineKeyboardButton('🏅Cʜᴀɴɴᴇʟ🏅', url="t.me/KOMOFFICIAL")
+            InlineKeyboardButton('🎬ɢʀᴏᴜᴘ🎬', url="t.me/KINGOFMOVIES003"),
+            InlineKeyboardButton('🏅ᴄʜᴀɴɴᴇʟ🏅', url="t.me/KOMOFFICIAL")
        ],[
-            InlineKeyboardButton('📣ʙᴏᴛ Uᴘᴅᴀᴛᴇꜱ📣', url="t.me/KOMBOTZZ"),
-            InlineKeyboardButton('🤖Sᴜᴘᴘᴏʀᴛ🤖', url="https://t.me/KOMBOTZZSUPPORT")
+            InlineKeyboardButton('📣ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ📣', url="t.me/KOMBOTZZ"),
+            InlineKeyboardButton('🤖ꜱᴜᴘᴘᴏʀᴛ🤖', url="https://t.me/KOMBOTZZSUPPORT")
        ],[
+            InlineKeyboardButton('➕️ʜᴇʟᴩ➕️', url="t.me/Komassistantbot")
+       ],[ 
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start')
         ]]
         await client.edit_message_media(
