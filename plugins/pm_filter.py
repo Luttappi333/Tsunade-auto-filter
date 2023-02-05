@@ -54,6 +54,7 @@ async def give_filter(client, message):
             if settings['auto_ffilter']:
                 await auto_filter(client, message) 
 
+"""
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
     content = message.text
@@ -66,6 +67,7 @@ async def pm_text(bot, message):
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
     )
+"""
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
