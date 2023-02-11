@@ -1,4 +1,4 @@
-# Updated by @Joelkb | For Paid Edits Contact @creatorbeatz on Telegram
+
 
 import asyncio
 import os
