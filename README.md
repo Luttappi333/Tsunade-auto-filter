@@ -11,9 +11,9 @@
 <a href="https://github.com/Mayavi333/Tsunade-auto-filter/stargazers"><img src="https://img.shields.io/github/stars/Mayavi333/Tsunade-auto-filter?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/Mayavi333/Tsunade-auto-filter/network/members"> <img src="https://img.shields.io/github/forks/Mayavi333/Tsunade-auto-filter?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/Mayavi333/Tsunade-auto-filter"> <img src="https://img.shields.io/github/repo-size/Mayavi333/Tsunade-auto-filter?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>   
-<a href="https://github.com/Mayavi333/Tsunade-auto-filter/commits/kdbotz"> <img src="https://img.shields.io/github/last-commit/Joelkb/DQ-The-File-Donor?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/Joelkb/DQ-The-File-Donor"> <img src="https://img.shields.io/github/contributors/Joelkb/DQ-The-File-Donor?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/Joelkb/DQ-The-File-Donor/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License- GPL 2.0 license -blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/Mayavi333/Tsunade-auto-filter/commits/kdbotz"> <img src="https://img.shields.io/github/last-commit/Mayavi333/Tsunade-auto-filter?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/Mayavi333/Tsunade-auto-filter"> <img src="https://img.shields.io/github/contributors/Mayavi333/Tsunade-auto-filter?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
+<a href="https://github.com/Mayavi333/Tsunade-auto-filter/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License- GPL 2.0 license -blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
 
@@ -56,7 +56,7 @@
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 
-<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.me/DQ_The_File_Donor_Updates'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
+<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.me/KOMBOTZZ'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
@@ -114,13 +114,13 @@
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/Joelkb/DQ-The-File-Donor/blob/master/info.py) for more optional variables
+* Check [info.py](https://github.com/Mayavi333/Tsunade-auto-filter/blob/master/info.py) for more optional variables
 
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Joelkb/DQ-the-file-donor">
+<a href="https://heroku.com/deploy?template=https://github.com/r">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
