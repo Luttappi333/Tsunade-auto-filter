@@ -524,13 +524,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 mh = await client.send_cached_media(
-                    chat_id=FILE_CHANNEL,
+                    chat_id=CHANNEL_ID,
                     file_id=file_id,
                     caption=script.FILE_CHANNEL_TXT.format(query.from_user.mention, title, size),
                     protect_content=True if ident == "filep" else False,
                     reply_markup=InlineKeyboardMarkup(
                         [[                          
-                          InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url='t.me/CKTalkies')
+                          InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url='t.me/KOMOFFICIAL')
                         ]]
                     )
                 )
