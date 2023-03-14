@@ -262,7 +262,17 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
-
+    
+    CHANNEL_CAP = """
+<b>Hai 👋 {}</b> 😍
+    
+<code>{}</code>
+    
+⚠️ <b>This file will be deleted from here within 3 minute as it has copyright ... !!!</b>
+    
+<b>ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴏʀ ꜱᴀᴠᴇ.</b>
+"""
+    
     LOGO = """
 
 ██████╗░░██████╗░░░░░░░████████╗██╗░░██╗███████╗░░░░░░███████╗██╗██╗░░░░░███████╗░░░░░░██████╗░░█████╗░███╗░░██╗░█████╗░██████╗░
