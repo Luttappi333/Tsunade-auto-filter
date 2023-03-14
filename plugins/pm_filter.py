@@ -544,7 +544,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("📥  ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ  📥", url=f"{mh.link}")
                         ],
                         [
-                            InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url=f"{FILE_CHANNEL_LINK}")
+                            InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+Ek0ThHrI-KYwMWQ1")
                         ]
                     ]
                 )
