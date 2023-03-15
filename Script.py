@@ -269,8 +269,8 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 <b>📫 Your File is Ready</b>
 
 <b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>{}</code>
-
 <b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{}</b>
+<b>✍️ Note: ❗️ This File & Message Will Deleted within 3 Mins..!</b>
 """
     
     FILE_CHANNEL_TXT = """
