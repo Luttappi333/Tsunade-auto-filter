@@ -530,7 +530,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     protect_content=True if ident == "filep" else False,
                     reply_markup=InlineKeyboardMarkup(
                         [[                          
-                          InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url='t.me/KOMOFFICIAL')
+                          InlineKeyboardButton("⚜️ᴋᴏᴍ ʟɪɴᴋꜱ⚜️", url='https://t.me/KOM_LINKS')
                         ]]
                     )
                 )
