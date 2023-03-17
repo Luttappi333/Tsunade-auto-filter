@@ -278,9 +278,12 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
     
 <code>{}</code>
     
-⚠️ <b>This file will be deleted from here within 3 minute as it has copyright ... !!!</b>
-    
-<b>ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴏʀ ꜱᴀᴠᴇ.</b>
+<b>❁🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят❁</b>
+<b>✯𝙅𝙊𝙄𝙉 :-⇊</b>
+<b>https://t.me/KOM_LINKS</b>
+<b>✯𝙅𝙊𝙄𝙉 :-⇊</b>
+<b>https://t.me/KOMBOTZZ</b>
+<b>❁🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят❁</b>
 """
     
     LOGO = """
