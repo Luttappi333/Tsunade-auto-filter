@@ -264,13 +264,13 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
     
     FILE_READY_TXT = """
-<b>Hai 👋 {} </b>😍
+<b>𝐇𝐚𝐢 👋 {}📫 𝐘𝐨𝐮𝐫 𝐅𝐢𝐥𝐞 𝐢𝐬 𝐑𝐞𝐚𝐝𝐲 👇</b>
 
-<b>📫 Your File is Ready</b>
+<b>📂 𝐅𝐢𝐥𝐞 𝐍𝐚𝐦𝐞</b> : <code>{}</code>
+<b>⚙️ 𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞</b> : <b>{}</b>
 
-<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>{}</code>
-<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{}</b>
-<b>✍️ Note: ❗️ This File & Message Will Deleted within 3 Mins..!</b>
+<b>✍️ 𝐍𝐨𝐭𝐞: ❗️ This File & Message Will Deleted within 3 Mins..!</b>
+<b>➕️𝐇𝐞𝐥𝐩➕️ ➤@KOMASSISTANTBOT</b>
 """
     
     FILE_CHANNEL_TXT = """
