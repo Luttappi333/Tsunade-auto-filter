@@ -588,20 +588,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{title}"
         await query.answer()
-        await client.send_cached_media(
-            chat_id=query.from_user.id,
+        mh = await client.send_cached_media(
+            chat_id=CHANNEL_ID,
             file_id=file_id,
-            caption=f_caption,
-            protect_content=True if ident == 'checksubp' else False,
+            caption=script.FILE_CHANNEL_TXT.format(query.from_user.mention, title, size),
+            protect_content=True if ident == "filep" else False,
             reply_markup=InlineKeyboardMarkup(
-                [
-                 [
-                  
-                  InlineKeyboardButton('📣Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', url=CHNL_LNK)
-               ],[
-                  InlineKeyboardButton("➕️ʜᴇʟᴩ➕️", url="t.me/Komassistantbot")
-                 ]
-                ]
+                [[                          
+                  InlineKeyboardButton("⚜️ᴋᴏᴍ ʟɪɴᴋꜱ⚜️", url='https://t.me/KOM_LINKS')
+                ]]
             )
         )
     elif query.data == "pages":
