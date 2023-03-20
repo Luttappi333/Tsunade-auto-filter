@@ -626,10 +626,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     
     
-    elif query.data == "pages":
+     elif query.data == "pages":
         await query.answer()
 
-    elif query.data.startswith("opnsetgrp"):
+     elif query.data.startswith("opnsetgrp"):
         ident, grp_id = query.data.split("#")
         userid = query.from_user.id if query.from_user else None
         st = await client.get_chat_member(grp_id, userid)
