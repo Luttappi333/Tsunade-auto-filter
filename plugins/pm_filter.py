@@ -592,7 +592,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         mh = await client.send_cached_media(
             chat_id=query.from_user.id,
             file_id=file_id,
-            caption=f_caption,
+            caption=script.FILE_CHANNEL_TXT.format(query.from_user.mention, title, size),
             protect_content=True if ident == 'checksubp' else False,
             reply_markup=InlineKeyboardMarkup(
                 [[                          
