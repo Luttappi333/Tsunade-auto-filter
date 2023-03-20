@@ -588,11 +588,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{title}"
         await query.answer()
-        elif settings['botpm']:
-            await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-            return
-        else:
-             mh = await client.send_cached_media(
+        
+    elif settings['botpm']:
+        await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+        return
+    else:
+         mh = await client.send_cached_media(
                  chat_id=CHANNEL_ID,
                  file_id=file_id,
                  caption=script.FILE_CHANNEL_TXT.format(query.from_user.mention, title, size),
