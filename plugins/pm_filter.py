@@ -614,6 +614,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]
             ]
         )
+        await asyncio.sleep(180)
+        await mh.delete()
             
      elif query.data == "pages":
         await query.answer()
