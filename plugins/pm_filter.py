@@ -600,7 +600,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]]
             )
         )
-        await query.message.reply(script.FILE_READY_TXT.format(query.from_user.mention))
+        await query.message.reply(script.FILE_READY_TXT.format(query.from_user.mention, title, size)),
         True,
         enums.ParseMode.HTML,
         disable_web_page_preview=True,
