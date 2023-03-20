@@ -594,35 +594,35 @@ async def cb_handler(client: Client, query: CallbackQuery):
         return
     else:
          mh = await client.send_cached_media(
-                 chat_id=CHANNEL_ID,
-                 file_id=file_id,
-                 caption=script.FILE_CHANNEL_TXT.format(query.from_user.mention, title, size),
-                 protect_content=True if ident == "filep" else False,
-                 reply_markup=InlineKeyboardMarkup(
-                    [[                          
-                      InlineKeyboardButton("⚜️ᴋᴏᴍ ʟɪɴᴋꜱ⚜️", url='https://t.me/KOM_LINKS')
-                    ]]
-                 )
-              )
-              mh8 = await query.message.reply(script.FILE_READY_TXT.format(query.from_user.mention, title, size),
-              True,
-              enums.ParseMode.HTML,
-              disable_web_page_preview=True,
-              reply_markup=InlineKeyboardMarkup(
+             chat_id=CHANNEL_ID,
+             file_id=file_id,
+             caption=script.FILE_CHANNEL_TXT.format(query.from_user.mention, title, size),
+             protect_content=True if ident == "filep" else False,
+             reply_markup=InlineKeyboardMarkup(
+                [[                          
+                  InlineKeyboardButton("⚜️ᴋᴏᴍ ʟɪɴᴋꜱ⚜️", url='https://t.me/KOM_LINKS')
+                ]]
+             )
+          )
+          mh8 = await query.message.reply(script.FILE_READY_TXT.format(query.from_user.mention, title, size),
+          True,
+          enums.ParseMode.HTML,
+          disable_web_page_preview=True,
+          reply_markup=InlineKeyboardMarkup(
+              [
                   [
-                      [
-                          InlineKeyboardButton("📥  ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ  📥", url=f"{mh.link}")
-                      ],
-                      [
-                          InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+Ek0ThHrI-KYwMWQ1")
-                      ]
+                      InlineKeyboardButton("📥  ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ  📥", url=f"{mh.link}")
+                  ],
+                  [
+                      InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+Ek0ThHrI-KYwMWQ1")
                   ]
-              )
-         ) 
-    await asyncio.sleep(180)
-    await mh8.delete()
-    await mh.delete()
-    del mh8, mh
+               ]
+           )
+     ) 
+     await asyncio.sleep(180)
+     await mh8.delete()
+     await mh.delete()
+     del mh8, mh
     
     
     
