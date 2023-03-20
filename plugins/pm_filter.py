@@ -618,7 +618,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     await mh8.delete()
     await mh.delete()
     del mh8, mh
-    )
+    
+    
+    
     elif query.data == "pages":
         await query.answer()
 
