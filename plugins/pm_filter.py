@@ -599,6 +599,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]]
             )
         )
+        mh8 = await query.message.reply(script.FILE_READY_TXT.format(query.from_user.mention, title, size),
+        True,
+        enums.ParseMode.HTML,
+        isable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("📥  ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ  📥", url=f"{mh.link}")
+                ],
+                [
+                    InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+Ek0ThHrI-KYwMWQ1")
+                ]
+            ]
+        )
     elif query.data == "pages":
         await query.answer()
 
