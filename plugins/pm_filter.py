@@ -955,6 +955,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
         )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.GFILTER_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "group_info":
         buttons = [[
             InlineKeyboardButton('🪄ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ🪄', url="t.me/KOM_LINKS")
