@@ -270,8 +270,8 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 <b>⚙️ 𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞</b> : <b>{}</b>
 
 <b>✍️ 𝐍𝐨𝐭𝐞: ❗️ This File & Message Will Deleted within 3 Mins..!</b>
-<b>➕️𝐇𝐞𝐥𝐩➕️ ➤@KOMASSISTANTBOT</b>
 """
+
     
     FILE_CHANNEL_TXT = """
 <b>Hai 👋 {}</b> 😍
