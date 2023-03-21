@@ -619,8 +619,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
      
      #Any Ertors In Thos Code Contact @Master_broi
             
-     elif query.data == "pages":
-        await query.answer()
+    elif query.data == "pages":
+       await query.answer()
 
      elif query.data.startswith("opnsetgrp"):
         ident, grp_id = query.data.split("#")
