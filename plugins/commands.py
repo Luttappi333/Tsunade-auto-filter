@@ -238,21 +238,34 @@ async def start(client, message):
     if not files_:
         pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
         try:
-            msg = await client.send_cached_media(
-                chat_id=message.from_user.id,
+            mh = await client.send_cached_media(
+                chat_id=CHANNEL_ID,
                 file_id=file_id,
+                caption=script.FILE_CHANNEL_TXT.format(query.from_user.mention, title, size),
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                     [
-                     
-                      InlineKeyboardButton('📣Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📣', url=CHNL_LNK)
-                   ],[
-                      InlineKeyboardButton("➕️ʜᴇʟᴩ➕️", url="t.me/Komassistantbot")
-                     ]
-                    ]
+                    [[                          
+                      InlineKeyboardButton("⚜️ᴋᴏᴍ ʟɪɴᴋꜱ⚜️", url='https://t.me/KOM_LINKS')
+                    ]]
                 )
             )
+            await query.message.reply(script.FILE_READY_TXT.format(query.from_user.mention, title, size),
+            True,
+            enums.ParseMode.HTML,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                     InlineKeyboardButton("📥  ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ  📥", url=f"{mh.link}")
+                    ],
+                    [
+                    InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+Ek0ThHrI-KYwMWQ1")
+                    ]
+                ]
+            ))
+            await asyncio.sleep(180)
+            await mh.delete()
+            
             filetype = msg.media
             file = getattr(msg, filetype.value)
             title = file.file_name
