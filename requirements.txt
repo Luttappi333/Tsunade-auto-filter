@@ -17,3 +17,7 @@ PyPDF2
 pyshorteners
 speedtest-cli
 aiofiles
+dnspython
+python-math
+psutil==5.9.4
+Pillow
