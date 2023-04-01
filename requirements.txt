@@ -15,3 +15,5 @@ gTTS
 googletrans==3.1.0a0
 PyPDF2
 pyshorteners
+speedtest-cli
+aiofiles
