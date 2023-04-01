@@ -53,7 +53,7 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # Others
-
+S_GROUP = environ.get('S_GROUP',"https://t.me/MLZ_BOTZ_SUPPORT")
 TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 CHANNEL_ID = environ.get("CHANNEL_ID", "-1001896132048")
 CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/+Y5ydwOg94Y0wYWU1')
