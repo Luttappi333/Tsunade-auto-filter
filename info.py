@@ -47,6 +47,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
+
+TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 CHANNEL_ID = environ.get("CHANNEL_ID", "-1001896132048")
 CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/+Y5ydwOg94Y0wYWU1')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
