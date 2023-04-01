@@ -1643,7 +1643,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}.</b>"
+        cap = f"<b>Hᴇʏ👋 {message.from_user.mention} 😻\n\n📁𝙌𝙪𝙚𝙧𝙮 : {search}\n🗂️𝗡𝗢. 𝗢𝗙 𝗙𝗜𝗟𝗘𝗦 › <code>{total_results}</code>\n\n✍️ ɴᴏᴛᴇ:ミ★ 𝘛𝘩𝘪𝘴 𝘔𝘦𝘴𝘴𝘢𝘨𝘦 𝘸𝘪𝘭𝘭 𝘣𝘦 𝘈𝘶𝘵𝘰-𝘥𝘦𝘭𝘦𝘵𝘦𝘥 𝘢𝘧𝘵𝘦𝘳 𝘢 𝘍𝘦𝘸 𝘔𝘪𝘯𝘶𝘵𝘦𝘴 𝘵𝘰 𝘢𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵 𝘪𝘴𝘴𝘶𝘦𝘴 ★彡\n\n𓃵𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗕𝘆 : {message.from_user.mention}.</b>"
     if imdb and imdb.get('poster'):
         try:
             if message.chat.id == SUPPORT_CHAT_ID:
